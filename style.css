@@ -1,0 +1,63 @@
+#bod{
+    background-image: url('https://img.freepik.com/premium-photo/woman-is-practicing-yoga-with-orange-background_916191-291668.jpg');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 900px;
+    
+}
+#img{
+    border-radius: 53%;
+    width: 80px;
+}
+section{
+    display: flex;
+    background-color:white;
+    
+}
+.heading{
+    margin-left: 20px;
+    color: red;
+    font-weight: bolder;
+  
+}
+.bmi-gauge {
+    position: relative;
+    width: 500px;
+   
+}
+
+.gauge-image {
+    width: 100%;
+    display: block;
+}
+
+
+.needle {
+    position: absolute;
+
+    width: 0;
+    height: 0;
+
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 70px solid #1746c7;
+
+    left: 50%;
+    top: 72%;
+
+    transform-origin: 0% 50%;
+
+    transform: rotate(-90deg);
+
+    z-index: 5;
+
+    transition: transform 0.6s ease;
+}
+nav{
+    display: flex;
+    align-items: start;
+    gap: 200px;
+}
+.h-75{
+    height: 75%;
+}
